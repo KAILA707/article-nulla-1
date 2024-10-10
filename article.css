@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('article background (2).jpeg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    color: #333; /* Text color */
+}
+
+header {
+    font-family: 'Script', cursive; /* Handwriting font */
+    font-size: 20px;
+    text-align: center;
+    color: black; /* Header text color */
+    padding: 10px 0; /* Add some padding */
+}
+
+#article {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; /* Space between articles */
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.article-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition to box-shadow */
+}
+
+.article-box:hover {
+    transform: translateY(-5px); /* Move the box slightly upwards */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+}
+
+.article-content {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.article-content img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-family: 'Script', cursive; /* Handwriting font */
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    padding: 10.5px;
+    border-radius: 20px;
+    max-width: 800px;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    background-color: black;
+}
+
+h2 {
+
+    font-family: 'Script', cursive; /* Handwriting font */
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    padding: 10.5px;
+    border-radius: 20px;
+    max-width: 800px; /* Limit the width of the article */
+    border: 1px solid #ccc; /* Add a 1px solid border with a light gray color */
+    padding: 20px; /* Add some padding to create space between the border and the content */
+    background-color: black;
+
+}
+
