@@ -8,7 +8,6 @@
     <link rel="icon" type="image/x-icon" href="download.png">
     <link rel="stylesheet" href="article.css">
 </head>
-
 <body>
     <header>
         <h1>A Rainy Teachers' Day Celebration at CTU Danao Campus</h1>
@@ -77,16 +76,18 @@
 
 </div> 
        </div>
-       <!-- log in form -->
-       <div class="log-in form">
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br><br>
+              <!--log in form -->
+              <div class="login-container">
+    
+                <button id="login-button">Login</button>
+                <form class="login-form">
+                  <input type="text" placeholder="Username" required>
+                  <input type="password" placeholder="Password" required>
+                  <button type="submit">Login</button>
+                </form>
+              </div>
 
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
-
-
-       </div>
+      <script src="article.js"></script>
 </body>
 
 </html>
